@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,200&family=Roboto+Mono:wght@400;700&family=Sansita+Swashed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,200&family=Sansita+Swashed:wght@300&display=swap');
+
+body,ul,li, p {
+
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+
+    background-color: #e8ebf1d3;
+    background-image: url(https://image.freepik.com/vetores-gratis/favo-de-mel-preto-com-luz-vermelha-entre-as-celulas_23-2148266252.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+
+}
+/* nav bar */
+a {
+
+    margin-right: 10px;
+    display: flex;
+    background: red;
+    border-radius: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+.header { 
+
+    background-color: rgba(34, 33, 33, 0.932);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-inline-end: auto;
+}
+.menu {
+    
+    display: flex;
+}
+.menu ul {
+
+    margin-left: 10px;
+}
+.menu li a {
+
+    margin: 2px;
+    display: block;
+    padding: 10px;
+    background: red;
+}
+/* <!-- Imagem com pesquisa no meio --> */
+/* #sect {
+
+    position: absolute;
+    top: 155px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(34, 33, 33, 0.932);
+    width: 280px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    z-index: 2;
+
+} */
+#sect p {
+
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+    border-radius: 4px;
+    position: absolute;
+    width: 300px;
+    top: 155px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+    z-index: 1;
+}
+/* <!-- Search individual de produto --> */
+.wrapper {
+    
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(34, 33, 33, 0.932);
+    max-width: 550px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+}
+.wrapper .input {
+    
+    width: 85%;
+    margin-right: 10px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.searchbtn {
+    
+    background: red; 
+    width: 10%;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    
+}
+.searchbtn .fas {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+    
+}
+/* <!-- arte que fica em cima da pesquisa de cesta basica --> */
+#sect1 {
+    
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+    border-radius: 4px;
+    position: absolute;
+    width: 300px;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+    z-index: 1;
+}
+
+/* <!-- Cesta Basica --> */
+#cesta-basica {
+
+    position: relative;
+    top: 645px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(34, 33, 33, 0.932);
+    height: 600px;
+    max-width: 570px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#form0 {
+
+    display: flexbox;
+    position: fixed;
+    top: 320px;
+    margin-right: 50px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    font-family: 'Roboto Mono', monospace;   
+
+}
+#form0 p {
+
+    max-width: 540px;
+    background-color: red;
+    margin: 4px;
+    color: whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    display: flexbox;
+    padding: 0px;
+
+}
+#form0 select {
+    
+    margin: 4px;
+    padding: 3px;
+    height: 23px;
+    margin-right: -9px;
+    width: 160px;
+    color: #f3f3f3c0;
+    background-color: rgba(0, 0, 0, 0.705);
+    border-radius: 5px;
+    border: none;
+    
+}
+/* <!-- Arte em cima da caixa de pesquisa avançada   --> */
+#sect0 {
+
+    text-align: center;
+    display: flexbox;
+    background-color: red;
+    padding: 10px;
+    border-radius: 4px;
+    position: absolute;
+    width: 300px;
+    top: 1170px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+    z-index: 1;
+
+}
+#sect0 p {
+
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;   
+    
+}
+/* <!-- Searchs - busca avançada --> */
+.search-av {
+    
+    position: relative;
+    top: 788px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(34, 33, 33, 0.932);
+    height: 600px;
+    max-width: 570px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#form {
+
+    display: flexbox;
+    max-width: 550px;
+    position: fixed;
+    top: 320px;
+    margin-right: 50px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    font-family: 'Roboto Mono', monospace;   
+
+}
+#form p {
+
+    max-width: 550px;
+    width: 250px;
+    background-color: red;
+    margin: 4px;
+    color: whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    display: flexbox;
+    padding: 0px;
+
+}
+#form select {
+    
+    margin: 4px;
+    padding: 3px;
+    height: 23px;
+    margin-right: -9px;
+    width: 160px;
+    color: #f3f3f3c0;
+    background-color: rgba(0, 0, 0, 0.705);
+    border-radius: 5px;
+    border: none;
+    
+}
+#qtd {
+
+    margin: 4px;
+    padding: 3px;
+    height: 16px;
+    width: 60px;
+    color: #808080d7;
+    background-color: rgba(0, 0, 0, 0.705);
+    border-radius: 5px;
+    border: none;
+
+}
+#submit {
+    
+    background-color: red;
+    color: whitesmoke;
+    display: flexbox;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 250px;
+    margin: 4px;
+    cursor: pointer;
+    
+}
+#text0 {
+    background: none;
+    width: 40px;
+}
+#Criador {
+
+    padding: 0px;
+    display: flexbox;
+    margin: 5px;
+    background-color: rgba(34, 33, 33, 0.932);
+    position: relative;
+    top: 500px;
+    border-radius: 5px;
+
+}
+#Criador p {
+    color: whitesmoke;
+    margin: 7px;
+}
+.CadPro{
+    align-items: center;
+}
